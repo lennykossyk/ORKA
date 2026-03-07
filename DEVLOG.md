@@ -78,3 +78,30 @@
 ---
 
 
+## 2026-03-07 – Räder, Clip-System & erste Robotergehäuse-Konzepte
+
+**Ziel**
+- Räder für 3D-Druck erstellen 
+- Erste Iterationen eines Clip-Systems für Radkappen entwickeln  
+- Start der Überlegungen für das Robotergehäuse
+  
+
+**Probleme**
+- Vertikal gedruckte Clips zeigen eine schwache Layerhaftung → Belastung quer zur Layer-Richtung führt zu Bruchanfälligkeit
+- Gehäuseerstellung schwierig, da Endgröße, Motorposition, Sensoranzahl, Powerpack-Layout noch unklar
+  
+**Lösungen**
+- Gridfinity Generator genutzt, um standardisierte Gridfinity Baseplate (248×248 mm) zu erzeugen  
+- Erste Idee: Baseplate einfach eine komplette Platte drucken, darauf Stützen für Wände platzieren und darauf Gridfinity Baseplate befestigen
+- Grund für modularen Ansatz: Basis-Module sollen austauschbar bleiben → spätere Änderungen bei Motoren, Sensorik oder Powerpack möglich  
+- Grobe Überlegung: Wände über seitliches Schienensystem von oben einsetzbar machen, Deckel fixiert die Wände  
+- Deckel als obere Abdeckung vorgesehen 
+  
+**Vorgehensweise**
+- CAD Modelle erstellen und zusammensetzen → Schauen ob Vorstellungen funktionieren
+- Strategie: 3D-Druck parallel zur Entwicklung laufen lassen, um möglichst viele Iterationen früh testen zu können  
+
+**Ausblick**
+- Überlegen, wie Wände, Stützen und Deckel stabil umgesetzt werden können  
+- Druckgrößen und Toleranzen prüfen, erste CAD-Tests der Basis-Module durchführen
+  
