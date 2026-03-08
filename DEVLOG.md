@@ -105,3 +105,31 @@
 - Überlegen, wie Wände, Stützen und Deckel stabil umgesetzt werden können  
 - Druckgrößen und Toleranzen prüfen, erste CAD-Tests der Basis-Module durchführen
   
+## 2026-03-08 – Robotergehäuse-Design & Baseplate Pain-Points
+
+**Ziel**
+- Weiterentwicklung des Gehäuse-Konzepts für den Roboter (Robofinity)  
+- Fokus: austauschbare Gridfinity-Baseplate, einfache Wartung, flexible Anpassungen
+
+**Vorgehensweise**
+- CAD-Design der Baseplate mit ersten Corner- und Middle-Pieces begonnen  
+- Gridfinity-Baseplate austauschbar/herausnehmbar gestalten, um Zugriff auf Elektronik und Sensoren zu erleichtern  
+- Erste Konzepte im Kopf: Gridfinity-Baseplate fest montieren, aber gleichzeitig Zugang zum Boden für Sensoren ermöglichen  
+
+**Probleme**
+- Corner/Middle-Pieces sind fest mit Baseplate verbunden → jede Höhenänderung erfordert Neudruck
+- Sensoren am Boden (z. B. IR-Sensor gegen Abstürze) → Löcher an richtiger Stelle nötig → hoher Filamentverbrauch bei Anpassungen
+- Herausforderung: Baseplate modular genug halten, um spätere Änderungen an Höhe, Sensorik, Motoranordnung oder Roboterfläche zu ermöglichen  
+
+**Lösungen**
+- Corner/Middle-Pieces an und ab montierbar machen → Höhe des Gehäuses häng von diesen ab → Baseplate muss nicht dafür neu gedruckt werden 
+  
+**Erkenntnisse**
+- Modularer Ansatz notwendig: Gridfinity-Baseplate abnehmbar, Corner/Middle-Pieces fix → erleichtert Wartung und iterative Anpassungen  
+- Stabilität bleibt Priorität, daher keine komplett austauschbaren Stützen  
+
+**Ausblick**
+- Konzept für Corner/Middle-Pieces und Gridfinity-Baseplate weiter konkretisieren  
+- Überlegen, wie Höhenanpassungen und Sensorpositionen flexibel umgesetzt werden können  
+- Erste CAD-Tests der Basis-Module durchführen
+
