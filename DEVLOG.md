@@ -133,3 +133,37 @@
 - Überlegen, wie Höhenanpassungen und Sensorpositionen flexibel umgesetzt werden können  
 - Erste CAD-Tests der Basis-Module durchführen
 
+## 2026-03-09 – Hybrid-Lösung: DIN-Schienen + Gridfinity
+
+**Ziel**
+- Befestigung austauschbarer Gridfinity-Tiles an Wänden, die weiterhin im Gridfinity-System verwendet werden können  
+- Modularität für spätere Anpassungen an Höhe, Sensorik oder Motoren  
+
+**Vorgehensweise**
+- Entscheidung für DIN-Schienen für die Wände getroffen  
+  - Andere Systeme (T-Schienen, Gitter an Wänden) geprüft und verworfen  
+- Corner- und Middle-Pieces der Baseplate weiter angepasst, iterativ verbessert  
+- PETG als Material gewählt für Stabilität und UV-Resistenz  
+- Überlegung: Gridfinity-Baseplate austauschbar halten, Fixierung über Heat Inserts direkt an Baseplate vorgesehen  
+- Heat Inserts bestellt, um Befestigungen sauber und wiederholbar zu realisieren  
+- Idee: Gridfinity-Tile mit Wand (DIN-Schiene) verbinden → erste Hybrid-Struktur konzipiert  
+
+**Probleme**
+- Befestigung der Wände stabil und gleichzeitig modular gestalten  
+- Zugriff auf Elektronik weiterhin einfach über austauschbare Gridfinity-Baseplate; Befestigung an der Wand möglich  
+- Höhe, Sensorposition und Motorplatzierung noch nicht final → Konzept muss flexibel bleiben  
+- PETG haftet zu stark an Druckbett
+
+**Lösungen**
+- Klebestift auf Druckbett genutzt, damit PETG nicht zu stark haftet  
+
+**Erkenntnisse**
+- DIN-Schienen-Lösung pragmatisch, einfach umzusetzen und stabil  
+- Lösung bietet hohe Stabilität; maximale Höhe der Schiene für Befestigung bleibt bei ca. 3 mm, ausreichend für sichere Fixierung  
+- Konzept zeigt, wie Modularität und Stabilität kombiniert werden können  
+
+**Ausblick**
+- CAD-Umsetzung der Hybrid-Struktur starten  
+- Druck- und Toleranztests vorbereiten  
+- Heat Inserts in CAD einplanen, Fixierung der Wände testen
+
