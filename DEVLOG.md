@@ -167,3 +167,30 @@
 - Druck- und Toleranztests vorbereiten  
 - Heat Inserts in CAD einplanen, Fixierung der Wände testen
 
+## 2026-03-10 – Heat Inserts, Corner Pieces 
+
+**Ziel**
+- Befestigungen der DIN-Schienen / Corner- und Middle-Pieces zuverlässig gestalten  
+- Sicherstellen, dass Baseplate und modulare Komponenten stabil montiert werden können
+
+**Vorgehensweise**
+- Heat Inserts Set (5 mm Durchmesser) bestellt  
+- Ursprünglich Löcher für 4 mm geplant, mussten nachträglich angepasst werden  
+- Corner- und Middle-Pieces getestet, Passform überprüft  
+- Bohrungen für Heat Inserts angepasst: 4,5 mm Bohraufsatz verwendet für perfekte Passform  
+- Sandstrahler eingerichtet, um bei Bedarf Oberflächen der Druckteile sauber zu bearbeiten  
+- Druck der Corner/Middle-Pieces in PETG geplant und vorbereitet  
+
+**Probleme**
+- Ursprüngliche Planung: 3.5 mm Bohrungen → Heat Inserts (5 mm) passten nicht  
+
+**Lösungen**
+- Löcher präzise aufgebohrt, Heat Inserts eingesetzt → saubere und wiederholbare Befestigung  
+
+**Erkenntnisse**
+- Heat Inserts ermöglichen zuverlässige Montage und modularen Aufbau  
+- Sandstrahler vorbereitet → bei Bedarf Nachbearbeitung der Teile möglich  
+
+**Ausblick**
+- Baseplate inkl. DIN-Schienen montieren
+
