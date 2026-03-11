@@ -194,3 +194,34 @@
 **Ausblick**
 - Baseplate inkl. DIN-Schienen montieren
 
+## 2026-03-11 – Roboterarm-Recherche
+
+**Ziel**
+- Auswahl eines passenden Roboterarms (6-DOF, 3D-druckbar, kompatibel mit bestehender Elektronik)  
+- Evaluierung von mechanischen, elektrischen und Software-Anforderungen  
+
+**Vorgehensweise**
+- Verschiedene Roboterarme recherchiert (open-source, 3D-druckbar, gute Dokumentation und Community-Support)  
+- Kriterien definiert:  
+  - 6 Freiheitsgrade (6-DOF)  
+  - Kompatibilität mit ESP32 / Raspberry Pi Steuerung  
+  - Einfacher Druck und Montage  
+  - Support / Community-Ressourcen für Anpassungen  
+
+**Probleme**
+- Kein Roboterarm erfüllte alle Kriterien perfekt  
+- Abwägung zwischen mechanischer Stabilität, Größe, Gewicht und Druckbarkeit  
+- Unsicherheit über endgültige Sensorik / Greifer → Arm muss später ggf. angepasst werden  
+
+**Lösungen**
+- Vorläufige Favoritenliste erstellt, aber keine finale Wahl getroffen  
+- Fokus auf Flexibilität: Arm muss später an Änderungen im Roboter angepasst werden können  
+
+**Erkenntnisse**
+- Roboterarm-Auswahl hängt stark von zukünftiger Sensorik, Motoren und Greifer ab  
+- Geduld bei der Wahl sinnvoll, um spätere Iterationen nicht einzuschränken  
+- Gute Dokumentation und Community-Support sind entscheidende Kriterien  
+
+**Ausblick**
+- Weiter beobachten, welche Arme in Community / Open-Source Projekten gut dokumentiert sind  
+  
