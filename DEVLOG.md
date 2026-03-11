@@ -225,3 +225,58 @@
 **Ausblick**
 - Weiter beobachten, welche Arme in Community / Open-Source Projekten gut dokumentiert sind  
   
+## 2026-03-12 – Motor-Tests, PD-Kabel & Löt-Erfahrung (TB6612FNG)
+
+**Ziel**
+- Testen der DC-Motoren mit ESP32 über TB6612FNG  
+- Sicherstellen, dass Motoren korrekt angesteuert werden können  
+
+**Vorgehensweise**
+- ESP32 verkabelt, Motorcontroller angeschlossen  
+- Powerpack (12V) als Stromversorgung genutzt  
+- PD-Kabel für Spannungsversorgung getestet:  
+  - Noch keinen Adapter für PD-Kabel vorhanden  
+  - Zweites ESP32 Expansion Board angeschlossen, Jumper entfernt  
+  - Zwei Kabel direkt an PD-Port angeschlossen → Spannung erfolgreich genutzt  
+  - Grob / klobig, aber funktionierte zuverlässig  
+- Erste Lötversuche: **Pins des TB6612FNG direkt festgelötet** → Kontaktproblem gelöst  
+- Nachmessen durchgeführt, Motor lief dennoch nicht korrekt  
+- Entscheidung getroffen, Lötflux und Lötstation zu besorgen → bessere Lötergebnisse und stabilere Kontakte.    
+
+<br>
+
+<details>
+<summary><h3><strong><u>📸 Fotos anzeigen</u></strong></h3></summary>
+<br>
+<p align="center">
+<img src="assets/images/2026-03-12_breadboard_setup.png" width="600" alt="Breadboard-Setup: ESP32, TB6612FNG, Step-Down, DC Motor, Multimeter">
+<br>
+<em>ESP32 auf Expansion Board, TB6612FNG auf Breadboard, Step-Down Modul, DC Motor</em>
+</p>
+</details>
+
+<br>
+
+**Probleme**
+- Kurzschluss beim Messen am Powerpack → ein ESP32 „explodiert“  
+- Mit zweitem ESP32 weitergearbeitet ist jedoch extrem heiß geworden, Fehlerursache unklar → evtl. Treiber beschädigt beim Löten  
+- PD-Kabel-Lösung improvisiert, klobig
+- Erstes Löten der Pins → mögliche Treiber-Schäden  
+
+**Lösungen**
+- 3 neue ESP32 bestellt, um defekte Boards zu ersetzen  
+- Stromversorgung prüfen: Multimeter zur Kontrolle, keine Messungen unter Last mehr  
+- Schrittweises Testen empfohlen → nur eine Komponente gleichzeitig anschließen  
+- Provisorische PD-Kabel-Lösung genutzt → funktionierte zuverlässig, später Adapter geplant  
+- Lötstation + Lötflux besorgt → zukünftig stabilere und saubere Lötverbindungen  
+
+**Erkenntnisse**
+- Kurzschluss und Überhitzung zeigen, dass Powerpack und Verkabelung kritisch sind  
+- Debugging in kleinen Schritten deutlich effizienter  
+- Sicherheit bei Strommessungen wichtig, Thermal Runaway früh erkennen  
+- Lehrgeld: 3 ESP32 ~15 € insgesamt, aber wertvolle Erfahrung für zukünftige Fehlervermeidung  
+
+**Ausblick**
+- Motor-Treiber Setup und Verkabelung final prüfen  
+- Iterative Tests mit neuen ESP32 durchführen
+
