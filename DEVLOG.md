@@ -280,3 +280,22 @@
 - Motor-Treiber Setup und Verkabelung final prüfen  
 - Iterative Tests mit neuen ESP32 durchführen
 
+## 2026-03-13 – Robotergehäuse-System / Robofinity überarbeitet
+
+**Ziel**
+- Modularität und Stabilität der Roboter-Basis (Robofinity) verbessern  
+
+**Vorgehensweise**
+- Connectoren an Wänden eingefügt, damit mehrere Module nebeneinander verbunden werden können  
+- Corner- und Middle-Pieces der Baseplate überprüft und angepasst  
+- Fokus auf saubere Verbindung der Wände, Modularität und einfache Montage  
+
+**Probleme**
+- Connectoren können bei festen Wänden Probleme verursachen, wenn Höhe oder Toleranzen variieren  
+
+**Erkenntnisse**
+- Modularer Ansatz ermöglicht flexible Kombination von Modulen  
+
+**Ausblick**
+- Baseplate inkl. DIN-Schienen final montieren
+
