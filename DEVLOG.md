@@ -299,3 +299,59 @@
 **Ausblick**
 - Baseplate inkl. DIN-Schienen final montieren
 
+## 2026-03-14 – Neue ESP32 & Motor erfolgreich getestet
+
+**Ziel**
+- Motorsteuerung stabil mit neuen ESP32 und TB6612FNG realisieren  
+- Motor erfolgreich mit ESP32 und TB6612FNG ansteuern  
+
+**Vorgehensweise**
+- Neue ESP32 Boards eingesetzt, Programm geflasht  
+- Verkabelung sorgfältig aufgebaut, Schritt für Schritt überprüft  
+- Zunächst mit 5 V Motorspannung getestet, bzw. ohne Motorspannung → Risiko minimiert  
+- Alle Pins des TB6612FNG einzeln gemessen, Multimeter geprüft → keine Kurzschlüsse erkannt  
+- Vor Ersetzen des Treibers: systematisch alle anderen Pins, Kabel und Spannungsquelle überprüft  
+  - ESP32-Pins kontrolliert  
+  - Kurzes Test-Skript geschrieben, um die Pins nacheinander zu prüfen
+- Ursprünglicher, bereits gelöteter TB6612FNG-Treiber: Motorspannung kam nicht an  
+- Ersatz-Treiber gelötet → Motor läuft endlich  
+- Verkabelung überprüft, Pins erneut kontrolliert und gefestigt  
+- Testlauf gestartet  
+
+**Probleme**
+- Alter Treiber vermutlich durch vorheriges Löten beschädigt  
+- Motorspannung kam nicht am DC-Motor an, trotz korrekter Pin-Belegung  
+- Verkabelung und Sicherheitschecks erforderten viel Zeit  
+
+**Lösungen**
+- Defekten Treiber ersetzen und neu löten  
+- Lötverbindungen kontrolliert
+- Systematisch Pins messen, Spannung testen, zunächst ohne Motorlast arbeiten  
+- Kleine Hilfsskripte zur Pin-Kontrolle eingesetzt  
+- Schrittweises Testen und iterative Kontrolle der Pins  
+
+**Erkenntnisse**
+- Schrittweises Testen minimiert Risiko von Schäden  
+- Löten kann Treiber langfristig beschädigen → sorgfältige Verarbeitung entscheidend  
+- Geduld und systematische Vorgehensweise führen zum Erfolg  
+- Sorgfältiges Löten und saubere Kontakte entscheidend für Funktionalität  
+- Iteratives Testen und kleine Schritte verhindern erneute Schäden  
+  
+<br>
+
+<details>
+<summary><h3><strong><u>📸 Fotos anzeigen</u></strong></h3></summary>
+<br>
+<p align="center">
+<img src="assets/images/2026-03-14_motor_test_successfull.JPG" width="600" alt="ORKA Innenansicht vor erstem Fahrtest">
+<br>
+<em>14.03.2026 — Erster erfolgreicher Motor-Test: Ersatz-TB6612FNG gelötet, Motor läuft</em>
+</p>
+</details>
+
+<br>
+
+**Ausblick**
+- Weitere Motoren ansteuern  
+- Erste kleine Fahrtests durchführen
+
