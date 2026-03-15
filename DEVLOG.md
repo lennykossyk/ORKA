@@ -1,4 +1,14 @@
-# Engineering Devlog
+# ORKA – Engineering Devlog
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logo/ORKA_logo_white.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/logo/ORKA_logo_black.png">
+    <img src="assets/logo/ORKA_logo_black.png" width="500" alt="ORKA Logo">
+  </picture>
+</p>
+
+> **ORKA** = Omnidirektionaler Roboter mit Kameragestützter Autonomie
 
 > Hardware:  
 > Raspberry Pi 5 (8GB) · ESP32 · TB6612FNG · YOLOv8 · PETG-Chassis (3D-Druck)
@@ -354,4 +364,41 @@
 **Ausblick**
 - Weitere Motoren ansteuern  
 - Erste kleine Fahrtests durchführen
+
+## 2026-03-15 – Raspberry Pi Setup & Robotergehäuse-Finalisierung
+
+**Ziel**
+- Robotergehäuse-Design fertigstellen (bis auf Deckel)  
+- Raspberry Pi 5 einsatzbereit machen  
+- Kamera-Setup für YOLOv8 prüfen  
+- Energieversorgung für Raspberry Pi evaluieren  
+
+**Vorgehensweise**
+- Robotergehäuse vollständig in CAD ausgearbeitet (Deckel noch offen)
+- Teile erneut gedruckt, Toleranzen getestet, iterative Anpassungen durchgeführt  
+- Raspberry Pi OS installiert  
+- Roboter offiziell auf den Namen **ORKA** getauft und Logo erstellt 
+- Günstiges Pi-Kameramodul überprüft → Adapter für Pi 5 fehlt  
+- Powerpack getestet → ungeeignet für Pi 5, da Stepper deutlich mehr Strom ziehen als ursprünglich angenommen  
+
+**Probleme**
+- Netzteil für Raspberry Pi 5 noch nicht vorhanden  
+- Kameramodul inkompatibel mit Pi 5
+- Powerpack liefert nicht ausreichend Strom für Raspberry Pi + Stepper-Motoren  
+- Unklar ob Kamera-Modul ausreichend für gute Bilderkennung
+
+**Lösungen**
+- Raspberry Pi AI-Kamera-Modul bestellen, um flüssige Bildrate zu gewährleisten,  
+- Dediziertes Netzteil für Raspberry Pi bestellen 
+- Toleranzen laufend geprüft und optimiert  
+
+**Erkenntnisse**
+- Robotergehäuse-Design bis auf Deckel finalisiert, iterative Druck-Tests notwendig für präzise Passform  
+- Kamera-Kompatibilität und Performance frühzeitig prüfen  
+
+**Ausblick**
+- Netzteil für Raspberry Pi besorgen  
+- KI-Kamera testen und integrieren  
+- Deckel für Robotergehäuse designen  
+- Weitere Toleranztests an Robotergehäuse und Druckteilen durchführen
 
