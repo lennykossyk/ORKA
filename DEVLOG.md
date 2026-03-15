@@ -402,3 +402,40 @@
 - Deckel für Robotergehäuse designen  
 - Weitere Toleranztests an Robotergehäuse und Druckteilen durchführen
 
+## 2026-03-16 – Corner Pieces, Heat Inserts & Druck-Toleranzen
+
+**Ziel**
+- Corner Pieces für Robotergehäuse weiter ausarbeiten  
+- Heat Inserts Löcher anpassen  
+- Druck-Toleranzen prüfen und optimieren  
+
+**Vorgehensweise**
+- Mutterlochgröße angepasst → von ursprünglich 56 mm auf 54 mm verkleinert  
+  - Erfordert etwas Kraft beim Versenken, hält aber sehr gut  
+  - Alternative 54,5 mm geprüft, ebenfalls passend, Entscheidung für 54 mm zur sicheren Fixierung  
+- Iterative Anpassung der Toleranzen für Schienen an den Wänden → wiederholtes Drucken, Testen, erneutes Modellieren  
+- Druck gestartet für Corner Pieces, um Robotergehäuse fertigzustellen  
+- Restliche Dateien für Druck vorbereitet  
+- Über Druckausrichtung nachgedacht → Optimierung für Optik und Stabilität  
+
+**Probleme**
+- Toleranzen kritisch → wiederholtes Drucken notwendig
+- Großes Modell → lange Ladezeiten bei Anpassungen im CAD  
+- Heat Inserts zunächst falsche Lochgröße → Anpassung notwendig  
+
+**Lösungen**
+- Mutterloch auf 54 mm reduziert → sichere Fixierung gewährleistet  
+- Iteratives Drucken und CAD-Anpassung → optimale Passform der Corner Pieces  
+- Werkzeuge ergänzt: Lötstation, Hand-Akkuschrauber → effizienterer Zusammenbau  
+
+**Erkenntnisse**
+- Präzise Toleranzen entscheidend für modulare Robotergehäuse-Struktur  
+- Testdrucke und iterative Anpassungen sparen später Zeit beim finalen Zusammenbau  
+- Effiziente Werkzeuge erleichtern Montage deutlich  
+
+
+**Ausblick**
+- Robotergehäuse vollständig montieren  
+- Deckel designen und Toleranzen prüfen  
+- Weitere Testdrucke durchführen
+
