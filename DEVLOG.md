@@ -439,3 +439,30 @@
 - Deckel designen und Toleranzen prüfen  
 - Weitere Testdrucke durchführen
 
+## 2026-03-17 – Kamera-Modul zurückgeschickt, Robotergehäuse-Flaw erkannt
+
+**Ziel**
+- KI-Kamera-Modul in Betrieb nehmen
+- Robotergehäuse erstmals physisch zusammenbauen und evaluieren
+
+**Vorgehensweise**
+- Raspberry Pi AI Camera (IMX500) getestet
+- Robotergehäuse zum ersten Mal zusammengebaut — Modularität in der Praxis geprüft
+
+**Probleme**
+- KI-Kamera hat keinen Autofokus → für ORKAs geplanten Use-Case (variable Abstände, Arm-Targeting) nicht geeignet
+- Beim ersten Zusammenbauen: Mittelteile werden bei Erweiterung des Systems nicht ineinander passen — Modularität eingeschränkt
+
+**Lösungen**
+- Kamera zurückgeschickt, Alternative gesucht
+- Design-Anpassungen für sauberere Modularität abgeleitet
+
+**Erkenntnisse**
+- Frühes physisches Zusammenbauen deckt Probleme auf, die im CAD unsichtbar bleiben
+- Lieber etwas länger recherchieren und Komponenten gezielt auswählen, statt vorschnell zu bestellen und später Zeit durch Fehlkäufe, Rücksendungen oder Umplanungen zu verlieren
+  
+**Ausblick**
+- Alternative Kameralösung recherchieren
+
+---
+
