@@ -466,3 +466,26 @@
 
 ---
 
+## 2026-03-18 – Vision-Architektur entschieden, Corner-Geometrie verbessert
+
+**Ziel**
+- Geeignetere Kameralösung auswählen
+- Mechanische Erweiterbarkeit des Robotergehäuse-Systems verbessern
+
+**Vorgehensweise**
+- USB-Webcam vs. Raspberry Pi Camera Module 3 abgewogen
+- Entscheidung für Raspberry Pi Camera Module 3: sauberere CSI-Integration, kein USB-Overhead, Autofokus vorhanden
+- Hailo-8L M.2 HAT (13 TOPS) für Pi 5 bestellt — für schnellere YOLO-Inferenz
+- Corner Pieces weiter iteriert und angepasst
+
+**Probleme**
+- Wände könnten ohne Deckel nach oben wegrutschen (Räder ragen seitlich heraus)
+
+**Lösungen**
+- Leisten die darüber festgeschraubt werden — mechanischer Anschlag für Wände nach oben
+
+**Ausblick**
+- Kamera-Modul abwarten, Wände weiter testen
+
+---
+
