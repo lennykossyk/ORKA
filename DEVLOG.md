@@ -11,7 +11,7 @@
 > **ORKA** = Omnidirektionaler Roboter mit Kameragestützter Autonomie
 
 > Hardware:  
-> Raspberry Pi 5 (8GB) · ESP32 · TB6612FNG · YOLOv8 · PETG-Chassis (3D-Druck)
+> Raspberry Pi 5 (8GB) + Hailo-8L M.2 HAT (13 TOPS) · ESP32 · TB6612FNG · YOLOv8 · PETG-Chassis (3D-Druck)
 
 ---
 
@@ -486,6 +486,36 @@
 
 **Ausblick**
 - Kamera-Modul abwarten, Wände weiter testen
+
+---
+
+## 2026-03-19 – Robotergehäuse erstes Mal zusammengebaut, Connector-Test & Hailo-8L Integration
+
+**Ziel**
+- Robotergehäuse vollständig physisch zusammenbauen
+- Connector-System in der Praxis testen
+- Hailo-8L M.2 HAT in Betrieb nehmen
+
+**Vorgehensweise**
+- Alle Stützen, Baseplate und Gridfinity-Baseplate zum ersten Mal komplett zusammengeschraubt
+- Wände gedruckt und eingesetzt
+- Connectoren zwischen Wand-Modulen getestet
+- Hailo-8L M.2 HAT an Pi 5 angeschlossen und in Betrieb genommen — Hardware-Beschleunigung für YOLO-Inferenz aktiv
+
+**Probleme**
+- Connectors sitzen sehr eng → Demontage nur mit Zange möglich
+
+**Lösungen**
+- Enge Connectors bewusst akzeptiert: feste Verbindung hat für Outdoor-Einsatz Vorrang vor einfacher Demontage
+- Zange als Standard-Demontagewerkzeug festgelegt
+
+**Erkenntnisse**
+- Erstes vollständiges Zusammenbauen zeigt: Konzept funktioniert mechanisch
+- Connector-Enge ist ein bewusster Trade-off — Stabilität vs. Wartbarkeit
+
+**Ausblick**
+- Kamera-Modul in Betrieb nehmen
+- YOLOv8 auf Pi aufsetzen
 
 ---
 
