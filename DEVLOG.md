@@ -519,3 +519,28 @@
 
 ---
 
+## 2026-03-20 – Kamera in Betrieb, YOLOv8 installiert
+
+**Ziel**
+- Raspberry Pi Camera Module 3 in Betrieb nehmen
+- YOLOv8 auf Pi 5 lauffähig machen
+
+**Vorgehensweise**
+- Kamera-Modul direkt über CSI angeschlossen
+- Kamera über picamera2 / libcamera erfolgreich gestartet
+- YOLOv8 (ultralytics) in venv `ORKA-env` auf Pi 5 installiert — erstes Inferenz-Test erfolgreich
+- Wall Holder für Motorwand entworfen
+- Erstes Rad-Design gedruckt und montiert
+
+**Probleme**
+- Erstes Rad-Design nicht optimal: Abstand zwischen Rad und Motorwand zu groß, Raddurchmesser zu klein → leichtes Schleifen ohne TPU-Reifen
+
+**Lösungen**
+- Rad-Iteration für folgende Tage eingeplant
+
+**Ausblick**
+- Rad-Design überarbeiten
+- Motor-Wand-Halter weiterentwickeln
+
+---
+
