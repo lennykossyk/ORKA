@@ -544,3 +544,23 @@
 
 ---
 
+## 2026-03-23 – Motor-Wand erste Versuche
+
+**Ziel**
+- Konzept für DC-Motor-Montage an Wand entwickeln
+
+**Vorgehensweise**
+- Erste Designs für Motor-Wand-Halterung erstellt
+- Iterative Anpassungen, Testdrucke gestartet
+
+**Probleme**
+- Geometrie zwischen Motor und Wand noch nicht gefunden. Kleinigkeiten nicht eingeplant
+
+**Lösung** 
+- Geometrie zwischen Motor und Wand ausgebessert
+
+**Erkenntnisse**
+- Motorhalterung erfordert mehr Iterationsaufwand als erwartet
+
+---
+
