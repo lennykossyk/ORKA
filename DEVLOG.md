@@ -564,3 +564,41 @@
 
 ---
 
+## 2026-03-24 – Motor-Wand finalisiert & Rad-Iteration
+
+**Ziel**
+- Motorwand-Design abschließen, Raddurchmesser anpassen
+
+**Vorgehensweise**
+- Motor-Wand vollständig in CAD ausgearbeitet: DC-Motoren können sauber an Chassis-Wand montiert werden
+- Raddurchmesser erhöht, um Abstand zwischen Rad und Motorwand zu verringern
+- 
+  
+<br>
+
+<details>
+<summary><h3><strong><u>📸 Fotos anzeigen</u></strong></h3></summary>
+<br>
+<p align="center">
+<img src="assets/images/2026-03-24_motorwall_first_mount.jpg" width="600" alt="Motorwand finalisiert">
+<br>
+<em>24.03.2026 — Motorwand finalisiert: DC-Motor sauber an Chassis-Wand montiert</em>
+</p>
+</details>
+
+<br>
+
+**Probleme**
+- Abstand Rad–Motorwand in vorherigen Iterationen zu groß → Instabilität
+
+**Lösungen**
+- Raddurchmesser erhöht → Abstand reduziert, Bodenauflage verbessert
+
+**Erkenntnisse**
+- CAD-Maße und reale Montage-Toleranzen weichen ab — iteratives Drucken und Messen ist effizienter als reines CAD-Optimieren
+
+**Ausblick**
+- Räder montieren, Gesamtsystem verkabeln, ersten Fahrtest vorbereiten
+
+---
+
