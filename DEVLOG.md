@@ -572,8 +572,7 @@
 **Vorgehensweise**
 - Motor-Wand vollständig in CAD ausgearbeitet: DC-Motoren können sauber an Chassis-Wand montiert werden
 - Raddurchmesser erhöht, um Abstand zwischen Rad und Motorwand zu verringern
-- 
-  
+-
 <br>
 
 <details>
@@ -599,6 +598,62 @@
 
 **Ausblick**
 - Räder montieren, Gesamtsystem verkabeln, ersten Fahrtest vorbereiten
+
+---
+
+## 2026-03-25 – Erste Fahrt von ORKA 🏁
+> **Milestone erreicht — ORKA fährt.**
+
+**Ziel**
+- Räder finalisieren, System vollständig verkabeln, ersten echten Fahrtest durchführen
+
+**Vorgehensweise**
+- Radabstand zu Wand nochmals minimal angepasst — Abstand nach vorherigem Druck noch leicht zu eng
+- Alle vier DC-Motoren vollständig verkabelt (ESP32 → TB6612FNG → 4× Motoren)
+- **Erster echter Fahrtest auf dem Boden — alle vier Räder, vorwärts/rückwärts**
+- Kamera-Gehäuse für Pi v1, Pi v3 parallel gedruckt
+- Einfaches Python-Script auf Pi entwickelt: Verbindung per IP, Live-Kamerabild und Steuerung über Browser
+
+**Probleme**
+- Lenkung (Links/Rechts) noch nicht korrekt — vorwärts/rückwärts funktionierte, Richtungssteuerung fehlerhaft
+
+**Lösungen**
+- Lenkfehler für den nächsten Tag zurückgestellt — Milestone "erstes Fahren" war das Tagesziel
+- Stromversorgung Pi: Powerpack → AC-Ausgang → Netzteil → Pi 5 — nicht die eleganteste Lösung, aber Powerpack bereits vorhanden und Kapazität sehr gut. 
+
+**Erkenntnisse**
+- Erster Fahrtest bestätigt: Motorsteuerung (ESP32 + TB6612FNG), Stromversorgung und mechanische Integration funktionieren zusammen
+- Iterative Rad- und Wand-Anpassungen über mehrere Tage haben sich ausgezahlt
+- Python-basierte Web-Steuerung über IP funktioniert — Kamerabild und Fahrbefehle im Browser
+  
+<br>
+
+<details>
+<summary><h3><strong><u>📸 Fotos anzeigen</u></strong></h3></summary>
+<br>
+<p align="center">
+<img src="assets/images/2026-03-25_first_assembled.JPG" width="600" alt="ORKA erstes Zusammenbauen mit Rädern">
+<br>
+<em>25.03.2026 — Erstes Zusammenbauen mit Rädern</em>
+</p>
+<br>
+<p align="center">
+<img src="assets/images/2026-03-25_wheel_dc_motor_test.JPG" width="600" alt="ORKA Rad und Motor Test">
+<br>
+<em>25.03.2026 — Rad und Motor Test vor erster Fahrt</em>
+</p>
+<br>
+<p align="center">
+<img src="assets/images/2026-03-25_first_drive.JPG" width="600" alt="ORKA erste Fahrt">
+<br>
+<em>25.03.2026 — Erste Fahrt: alle vier Räder, vorwärts/rückwärts</em>
+</p>
+</details>
+
+<br>
+
+**Ausblick**
+- Lenkfehler (Links/Rechts) debuggen und beheben
 
 ---
 
