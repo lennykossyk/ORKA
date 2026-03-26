@@ -572,7 +572,7 @@
 **Vorgehensweise**
 - Motor-Wand vollständig in CAD ausgearbeitet: DC-Motoren können sauber an Chassis-Wand montiert werden
 - Raddurchmesser erhöht, um Abstand zwischen Rad und Motorwand zu verringern
--
+  
 <br>
 
 <details>
@@ -654,6 +654,43 @@
 
 **Ausblick**
 - Lenkfehler (Links/Rechts) debuggen und beheben
+
+---
+
+## 2026-03-26 – Lenkung debuggt & behoben
+
+**Ziel**
+- Links/Rechts-Steuerung korrekt zum Laufen bringen
+
+**Vorgehensweise**
+- Systematisches Debugging: Kombination aus falscher Pin-Zuordnung im Code und falsch angeschlossenen Motorkabeln identifiziert
+- Motorkanäle einzeln durchgetestet bis Drehrichtung mit Steuerlogik übereinstimmte
+- Pin-Mapping im Code dokumentiert
+
+**Probleme**
+- Fehler war auf zwei Ebenen gleichzeitig: Code (Pin-Logik) und Hardware (Kabelzuordnung) — erschwertes Debugging
+
+**Lösungen**
+- Einzelkanal-Testing als Methode: einen Motor nach dem anderen auf korrekte Drehrichtung prüfen
+
+**Erkenntnisse**
+- Bei Lenkfehlern immer beide Ebenen prüfen: Software-Pin-Logik **und** Kabel-Richtung — einer allein reicht häufig nicht
+- Robotergehäuse-Erweiterung gedruckt: System stabil genug
+
+
+<br>
+
+<details>
+<summary><h3><strong><u>📸 Fotos anzeigen</u></strong></h3></summary>
+<br>
+<p align="center">
+<img src="assets/images/2026-03-26_debbuging_turning_left_or_right.JPG" width="600" alt="Debugging Lenkung Links/Rechts">
+<br>
+<em>26.03.2026 — Debugging Links/Rechts-Steuerung: Pin-Logik und Kabelzuordnung</em>
+</p>
+</details>
+
+<br>
 
 ---
 
