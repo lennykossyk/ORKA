@@ -571,8 +571,7 @@
 
 **Vorgehensweise**
 - Motor-Wand vollständig in CAD ausgearbeitet: DC-Motoren können sauber an Chassis-Wand montiert werden
-- Raddurchmesser erhöht, um Abstand zwischen Rad und Motorwand zu verringern
-  
+- Raddurchmesser erhöht, um Abstand zwischen Rad und Motorwand zu verringern 
 <br>
 
 <details>
@@ -694,3 +693,73 @@
 
 ---
 
+## 2026-03-27 – Gehäuse erweitert & Modularität bestätigt
+
+**Ziel**
+- Gehäuse war zu klein für alle Komponenten — Fläche auf 1,5× vergrößert
+
+**Vorgehensweise**
+- 2 weitere Middle-Pieces gedruckt sowie notwendige Verbindungsteile
+- 4×8 Gridfinity-Baseplate und Baseplate gedruckt und hinzugefügt
+- Baseplate-Connector designt und gedruckt
+
+**Probleme**
+- Alte Corner Pieces inkompatibel mit neuem Middle-Piece Design 
+- Beim CAD-Export des Middle-Pieces wurde die Connector-Einbuchtung nicht korrekt übernommen
+
+**Lösungen**
+- Inkompatible Bereiche der Corner Pieces mechanisch abgesägt — provisorische Lösung, funktioniert
+- Neudrucke der betroffenen Corner Pieces für später eingeplant
+
+**Erkenntnisse**
+- Ohne Connector-Pieces leicht instabiler, aber dennoch sehr stabil
+- Erweiterbarkeit des Robofinity-Systems funktioniert in der Praxis — Modularität bestätigt
+- Befürchtete Instabilität am Anfang erwies sich als unbegründet — unnötige Designentscheidungen zur Stabilitätssicherung brachten mehr Nachteile als Vorteile und werden rückgängig gemacht
+
+<br>
+
+<details>
+<summary><h3><strong><u>📸 Fotos anzeigen</u></strong></h3></summary>
+<br>
+<p align="center">
+<img src="assets/images/2026-03-27_before_chassis_top_view.jpg" width="600" alt="Chassis vor Erweiterung">
+<br>
+<em>27.03.2026 — Chassis vor der Erweiterung</em>
+</p>
+<br>
+<p align="center">
+<img src="assets/images/2026-03-27_components.JPG" width="600" alt="Neue Komponenten">
+<br>
+<em>27.03.2026 — Neue Middle-Pieces und Baseplate-Erweiterung vor dem Einbau</em>
+</p>
+<br>
+<p align="center">
+<img src="assets/images/2026-03-27_baseplate_connector.jpg" width="600" alt="Baseplate-Connector">
+<br>
+<em>27.03.2026 — Neuer Baseplate-Connector: verbindet alte und neue Baseplate-Sektion</em>
+</p>
+<br>
+<p align="center">
+<img src="assets/images/2026-03-27_after_chassis_top_view_1.JPG" width="600" alt="Chassis nach Erweiterung 1">
+<br>
+<em>27.03.2026 — Chassis nach Erweiterung auf 1,5× ohne Corner und Middle Pieces</em>
+</p>
+<br>
+<p align="center">
+<img src="assets/images/2026-03-27_after_chassis_top_view_2.JPG" width="600" alt="Chassis nach Erweiterung 2">
+<br>
+<em>27.03.2026 — Chassis nach Erweiterung auf 1,5× mit Corner und Middle Pieces</em>
+</p>
+<br>
+<p align="center">
+<img src="assets/images/2026-03-27_electronics_interior.jpg" width="600" alt="Elektronik-Innenansicht">
+<br>
+<em>27.03.2026 — Gehäuse auf 1,5× vergrößert: alle Komponenten haben Platz</em>
+</p>
+</details>
+
+<br>
+
+
+**Ausblick**
+- Middle Pieces mit korrekter Connector-Geometrie neu drucken
