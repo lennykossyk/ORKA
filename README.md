@@ -13,7 +13,6 @@
 
 ---
 
-<br>
 
 <details>
 <summary><h3><strong><u>📸 Fotos anzeigen</u></strong></h3></summary>
@@ -25,9 +24,13 @@
 </p>
 </details>
 
-<br>
 
 ---
+
+## Demo
+
+▶ [ORKA — First Drive + Live Camera](https://www.linkedin.com/feed/update/urn:li:activity:7443994345415983104/?originTrackingId=DYWwwzkaQbOAQfCaBuinaQ%3D%3D)
+▶ [ORKA — YOLOv8 Object Detection](https://www.linkedin.com/feed/update/urn:li:activity:7443994691827814400/?originTrackingId=r31xf84IT7KFzjLIR9R%2BbQ%3D%3)
 
 ## What is ORKA?
 
@@ -92,4 +95,10 @@ Development decisions, hardware failures, and lessons learned are documented in 
 
 ---
 
-*Built by [Lenny Kossyk](mailto:lenkossyk@gmail.com) · TH Nürnberg · Energieprozesstechnik*
+*Built by [Lenny Kossyk](mailto:lenkossyk@gmail.com) · [LinkedIn](https://www.linkedin.com/in/lenny-kossyk-2a2033234) · TH Nürnberg · Energieprozesstechnik*
+
+---
+
+## Related Projects
+
+- **[Robofinity](https://github.com/lennykossyk/Robofinity)** — open-source modular robot chassis system (Gridfinity + DIN-rail hybrid)
