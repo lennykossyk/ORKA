@@ -760,6 +760,282 @@
 
 <br>
 
-
 **Ausblick**
 - Middle Pieces mit korrekter Connector-Geometrie neu drucken
+
+---
+## 2026-03-31 – Case-Finalisierung & Hardware-Recherche für Roboterarm
+
+**Ziel**
+- Gehäuse-Design vervollständigen (Lid)
+- Raspberry Pi 5 + Hailo-8L Case designen
+- ESP32 Case designen
+- Hardware-Needs für Roboterarm-Projekt planen
+
+**Vorgehensweise**
+- Raspberry Pi 5 + Hailo-8L Case auf MakerWorld rausgesucht, angepasst und integriert
+- Raspberry Pi 5 + Hailo-8L-Tile optimiert: Festschraubung sowohl am Case als auch an der Baseplate möglich
+- Design gedruckt & getestet
+- Lid (Deckel), Lid-Corners und Lid-Middle-Pieces vollständig designt
+- ESP32 Gehäuse-Modell rausgesucht und angepasst
+- Grobe Hardware-Needs Liste für kommende Phasen erstellt
+
+**Probleme**
+- Erster Test-Druck zeigte, dass ESP32 Case: Bohrungen inkompatibel mit Extension Board (falsche Abstände zu Wand)
+
+**Erkenntnis**
+- Externe Cases sparen Zeit, benötigen aber gezielte Anpassung für spezifische Hardware
+- Modulare Lid/Corner/Middle-Piece-Architektur zahlt sich in Flexibilität aus
+
+**Ausblick**
+- ESP32 Case ausbessern und nachdrucken
+- Alle Gehäuse-Teile drucken und Zusammenbau
+
+<br>
+
+<details>
+<summary><h3><strong><u>📸 Fotos anzeigen</u></strong></h3></summary>
+<br>
+<p align="center">
+<img src="assets/images/2026-03-31_rasp_pi_hailo_tile.jpg" width="600" alt="Raspberry Pi Hailo Tile">
+<br>
+<em>31.03.2026 — Raspberry Pi + Hailo-8L Tile</em>
+</p>
+<br>
+<p align="center">
+<img src="assets/images/2026-03-31_lid_corner_piece.jpg" width="600" alt="Lid Corner Piece">
+<br>
+<em>31.03.2026 — Lid-Corner Piece</em>
+</p>
+<br>
+<p align="center">
+<img src="assets/images/2026-03-31_lid_middle_piece.jpg" width="600" alt="Lid Middle Piece">
+<br>
+<em>31.03.2026 — Lid-Middle Piece</em>
+</p>
+
+</details>
+
+<br>
+
+---
+
+## 2026-04-01 – Gehäuse-Innenlayout Optimierung
+
+**Ziel**
+- Gehäuse-Innenlayout optimieren
+- Modulare Halterungen für alle Komponenten designen
+
+**Vorgehensweise**
+- ESP32 Gehäuse fertig angepasst
+- Kabelhalter designt
+- Powerpack-Holder designt
+- Step-Down Regulator Gehäuse: Model auf MakerWorld gefunden und angepasst
+  - Tile designt: befestigung sowohl am Step-Down Gehäuse als auch an der Baseplate möglich
+- DC-Netzstecker von altem Expansion Board entfernt & umgelötet
+  - Altes Expansion Board war als provisorischer DC-Netzstecker umfunktioniert — nun nicht mehr notwendig
+  - Nur noch DC-Netzstecker im direkten Einsatz
+
+**Erkenntnis**
+- Tiles ermöglichen flexible Integration ins Baseplate-System wie geplant
+- Modulare Halterungen ermöglichen schnelles Neudesign bei zukünftigen Änderungen
+
+**Ausblick**
+- Alle CAD-Designs drucken
+- Zusammenbau testen
+
+<br>
+
+<details>
+<summary><h3><strong><u>📸 Fotos anzeigen</u></strong></h3></summary>
+<br>
+<p align="center">
+<img src="assets/images/2026-03-31_esp32_case_tile.jpg" width="600" alt="ESP32 Case Tile">
+<br>
+<em>01.04.2026 — ESP32 Tile</em>
+</p>
+<br>
+<p align="center">
+<img src="assets/images/2026-04-01_breadboard_tile.jpg" width="600" alt="Breadboard Tile">
+<br>
+<em>01.04.2026 — Breadboard Tile</em>
+</p>
+<br>
+<p align="center">
+<img src="assets/images/2026-04-01_cable_holder_tile.jpg" width="600" alt="Cable Holder Tile">
+<br>
+<em>01.04.2026 — Kabelhalter Tile</em>
+</p>
+<br>
+<p align="center">
+<img src="assets/images/2026-04-01_powerpack_tile.jpg" width="600" alt="Powerpack Holder Tile">
+<br>
+<em>01.04.2026 — Powerpack Tile</em>
+</p>
+<br>
+<p align="center">
+<img src="assets/images/2026-04-01_step_down_regulator_tile.jpg" width="600" alt="Step-Down Regulator Tile">
+<br>
+<em>01.04.2026 — Step-Down Regulator Tile</em>
+</p>
+<br>
+<p align="center">
+<img src="assets/images/2026-04-01_step_down_wall_mounted.jpg" width="600" alt="Step-Down Wall Mount">
+<br>
+<em>01.04.2026 — Step-Down Regulator an Wand montiert</em>
+</p>
+</details>
+
+<br>
+
+---
+
+## 2026-04-02 – Roboterarm-Komponenten & Innenlayout-Abschluss
+
+**Ziel**
+- Roboterarm-Komponenten kaufen
+- Innenlayout für Elektronik vervollständigen
+
+**Vorgehensweise**
+- Breadboard Tile designt
+- Step-Down Regulator Tile fertig — DC-Netzstecker mit Heißklebepistole befestigt
+- **Kleinanzeigen: Komplettes Motor + Treiber Set gekauft**
+  - 5× NEMA 17 (7HE19-2004S) mit 6× MKS SERVO42D Closed-Loop CAN-Bus Treibern
+  - 1× NEMA 17 (17HS15-1504S-X1, Standard-Bauform)
+  - 1× NEMA 17 (17HS08-1004S, flache Bauform)
+  - 1× NEMA 11 mit MKS SERVO28D Closed-Loop CAN-Bus Treiber
+  - 1× NEMA 23 Moons' Electric (57×57×55 mm)
+  - Zubehör: 4× Pololu Scooter Wheel Adapter, 5× starre Flanschkupplungen, 4× Flanschhalterungen, 1× Wellenkupplung
+- Hochwertiges Getriebe-Set vom selben Verkäufer entdeckt — perfekt abgestimmt auf die NEMA-Motoren, Kaufentscheidung ausstehend
+
+**Erkenntnis**
+- Motorensets von privat günstiger als einzeln — zusätzlich wertvollses Zubehör im Set
+- MKS SERVO42D/SERVO28D + CAN-Bus ist moderne Standard-Architektur für DIY-Robotik
+- Hochwertige gebrauchte Komponenten bieten hohe Qualität zu günstigen Preisen
+
+**Ausblick**
+- Getriebe evaluieren
+- Harmonic Drive recherchieren
+- Motor-Inventar für Roboterarm-Planung nutzen
+
+---
+
+## 2026-04-03 – Getriebe für Roboterarm gekauft
+
+**Ziel**
+- Hochwertige Getriebe für Roboterarm-Gelenke beschaffen
+
+**Vorgehensweise**
+- **Getriebe-Set von Kleinanzeigen gekauft** — identischer Verkäufer wie Motor + Treiber Set 
+  - 1× HFUS-20-160-2SH mit komplettem Maxon EC45 Aktuator (J1 Base Joint)
+  - 2× SHG-14-100-2SH Harmonic Drives
+  - 1× SHG-14-100 Custom
+  - 1× SHD-14-100-2SH-SP
+  - Alle Komponenten auf NEMA 17/23 Motoren abgestimmt
+  - Gebraucht, aber Industrie-Niveau — Aluminium-Konstruktion, präzise gefertigt
+  - Komponenten auch unabhängig von ORKA einsetzbar (langfristige Ressource)
+- CAD-Dateien für komplettes Roboterarm-Design vom Verkäufer erhalten
+  - Detailliertes Fusion 360 Assembly
+  - Spart erhebliche CAD-Design-Zeit für ORKA-Arm
+
+**Erkenntnis**
+- Abgestimmte Komponentensets (Motoren + Harmonic Drive Getriebe) von einem Verkäufer sparen Design- und Beschaffungszeit
+- Hochwertige Industrie-Komponenten zu günstigen Preisen sind strategisches Investment — auch wenn nicht sofort alle für ORKA genutzt werden
+- Bestehende CAD-Designs ermöglichen schnellere Prototypisierung statt Design from Scratch
+- Harmonic Drive Getriebe sind Standard für präzise Roboterarm-Gelenke
+
+**Ausblick**
+- Lid-Assembly durchführen und testen
+- Roboterarm-Design analysieren und für ORKA integrieren
+- BOM finalisieren und Beschaffungsplan für fehlende Komponenten erstellen
+
+---
+
+## 2026-04-04 – Case-Assembly & BOM-Fertigstellung
+
+**Ziel**
+- Lid zusammenbauen
+- BOM für Roboterarm erstellen
+
+**Vorgehensweise**
+- **Lid zusammengeschraubt** — erstes großes Assembly-Milestone
+- Schrauben fehlten am Ende → konnte nicht ganz fertig werden
+- Trotzdem: hat ansich gut geklappt — alle Toleranzen passen
+- BOM komplett erstellt
+  - 3 Sheets: Roboterarm BOM, ORKA BOM, Kostenübersicht
+  - Alle Komponenten, Quellen und Kosten dokumentiert
+- PAHT-CF (Carbon Fiber) für Arm-Stabilität überlegt
+  - Ideal für Last-tragende Teile (Arm-Struktur, Gelenk-Halterungen)
+  - Deutlich stabiler & leichter als Standard-PETG
+  - Teuer — wird nur bei Bedarf gekauft, nicht präventiv
+
+**Probleme**
+- Schrauben fehlten (Nachbestellung notwendig)
+
+**Erkenntnis**
+- BOM vor Assembly ist essentiell — spart später Neukäufe und Budget-Überraschungen
+- Material-Auswahl basierend auf echtem Bedarf statt präventiv sparen Kosten
+
+**Ausblick**
+- Fehlende Schrauben kaufen
+- AliExpress-Komponenten raussuchen
+
+<br>
+
+<details>
+<summary><h3><strong><u>📸 Fotos anzeigen</u></strong></h3></summary>
+<br>
+<p align="center">
+<img src="assets/images/2026-04-04_lid_assembled.jpg" width="600" alt="Lid Assembled Top View">
+<br>
+<em>04.04.2026 — Lid zusammengeschraubt - Draufsicht</em>
+</p>
+</details>
+
+<br>
+
+---
+
+## 2026-04-06 – AliExpress-Beschaffung
+
+**Ziel**
+- Fehlende Komponenten für Roboterarm beschaffen
+- Stromversorgungsstrategie entscheiden
+
+**Vorgehensweise**
+- Alle fehlenden Komponenten auf AliExpress bestellt
+  - 250× M3 Heißschmelz-Messingmuttern — für Arm-Montage
+  - ZXS20 Harmonic Drive für NEMA 23 — Hauptgetriebe J2
+  - Wanptek Labornetzteil 0–32V/10A — flexible Stromversorgung
+  - 2× FYSETC UCAN CAN-USB Adapter — für CAN-Bus Debug & Kommunikation (1× extra als Ersatz)
+  - 2× TB6612 Motor Treiberplatinen — optional für 6-Rad-Konfiguration (2 Motoren zusätzlich)
+  - 6× Mini-Breadboards — Prototyping
+  - 40-Pin GPIO Header — Raspberry Pi Erweiterung (Pins waren zu kurz, schauten nicht über Hailo-Modul)
+  - DC-Netzstecker — Stromversorgung (improvisierte Lösung ersetzen)
+- **Labornetzteil statt Standard-Netzteil gewählt** — strategisches Investment für langfristige Entwicklung
+  - Spannung & Strom einstellbar → flexibel für alle Komponenten (5V, 12V, 24V, Stepper)
+  - Strombegrenzung (CC) → schützt vor Fehlern & Kurzschluss
+  - Perfekt für Debugging & iterativen Aufbau
+  - Mit Powerpack nutzbar → eingeschränkte mobile Tests möglich
+  - Ein Gerät für alle zukünftigen Robotik-Projekte einsetzbar
+
+**Erkenntnis**
+- Labornetzteil ist das richtige Investment für Robotik-Entwicklung — Flexibilität & Sicherheit schlagen reine Leistung in der Prototypisierungsphase
+- Gutes Equipment zahlt sich über viele Projekte hinweg aus
+- AliExpress-Beschaffung braucht Zeit (Shipping ca. 0–2 Wochen)
+
+**Ausblick**
+- Auf AliExpress-Lieferungen warten
+- CAN-Bus Setup mit UCAN Adaptern testen
+
+---
+
+## 2026-04-07 – Ästhetik-Verbesserung
+
+**Ziel**
+- Gehäuse optisch verbessern
+
+**Vorgehensweise**
+- Rad-Abdeckung designt & getestet (aus ästhetischen Gründen)
+
+---
