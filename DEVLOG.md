@@ -1039,3 +1039,261 @@
 - Rad-Abdeckung designt & getestet (aus ästhetischen Gründen)
 
 ---
+
+## 2026-04-09 – Roboterarm-Komponenten angekommen
+
+**Ziel**
+- Lieferung inspizieren
+
+**Vorgehensweise**
+- Harmonic Drive Set + Maxon EC45 Aktuator angekommen
+- Motor + Treiber Set angekommen und inspiziert
+- Alle Komponenten in gutem Zustand
+- Komponenten sind sauber verpackt und unbeschädigt angekommen
+
+**Ausblick**
+- Roboterarm-Montage beginnen
+- CAD-Design anpassen und optimieren
+- Erste mechanische Tests durchführen
+
+<details>
+<summary><h3><strong><u>📸 Fotos anzeigen</u></strong></h3></summary>
+<br>
+<p align="center">
+<img src="assets/images/2026-04-09_gearbox_set_package.JPG" width="600" alt="Lid Assembled Top View">
+<br>
+<em>09.04.2026 — Getriebe Set Paket</em>
+</p>
+</details>
+
+---
+
+## 2026-04-10 – Robofinity-Verkabelung 
+
+**Ziel**
+- Robofinity-Chassis vollständig verkabeln
+- Saubere Verkabelungs-Architektur
+
+**Vorgehensweise**
+- Robofinity-Baseplate vorbereitet: Gridfinity-Grid mit DIN-Schienen für Wände
+- **Modular Tile-System installiert:**
+  - ESP32 Case Tile (oben)
+  - Breadboard Tile (Mitte)
+  - Stepdown Tile mit Spannungs-Output (unten)
+- Verkabelung step-by-step dokumentiert:
+  - Power IN/OUT Anschlüsse (rot/blau Leitungen)
+  - Alle Kabel organisiert mit Kabelhaltern
+
+<details>
+<summary><h3><strong><u>📸 Fotos anzeigen</u></strong></h3></summary>
+<br>
+<p align="center">
+<img src="assets/images/2026-04-10_cabling_step_1.JPG" width="600" alt="Lid Assembled Top View">
+<br>
+<em>10.04.2026 — Zusammenbauen Schritt 1</em>
+</p>
+
+<img src="assets/images/2026-04-10_cabling_step_2.JPG" width="600" alt="Lid Assembled Top View">
+<br>
+<em>10.04.2026 — Zusammenbauen Schritt 2</em>
+</p>
+
+<img src="assets/images/2026-04-10_cabling_step_3.JPG" width="600" alt="Lid Assembled Top View">
+<br>
+<em>10.04.2026 — Zusammenbauen Schritt 3</em>
+</p>
+
+<img src="assets/images/2026-04-10_cabling_step_4.JPG" width="600" alt="Lid Assembled Top View">
+<br>
+<em>10.04.2026 — Zusammenbauen Schritt 4</em>
+</p>
+
+<img src="assets/images/2026-04-10_cabling_step_5.JPG" width="600" alt="Lid Assembled Top View">
+<br>
+<em>10.04.2026 — Zusammenbauen Schritt 5</em>
+</p>
+
+<img src="assets/images/2026-04-10_cabling_step_6.JPG" width="600" alt="Lid Assembled Top View">
+<br>
+<em>10.04.2026 — Zusammenbauen Schritt 6</em>
+</p>
+
+<img src="assets/images/2026-04-10_cabling_step_7.JPG" width="600" alt="Lid Assembled Top View">
+<br>
+<em>10.04.2026 — Zusammenbauen Schritt 7</em>
+</p>
+
+<img src="assets/images/2026-04-10_cabling_step_8.JPG" width="600" alt="Lid Assembled Top View">
+<br>
+<em>10.04.2026 — Zusammenbauen Schritt 8</em>
+</p>
+
+<img src="assets/images/2026-04-10_cabling_step_9.JPG" width="600" alt="Lid Assembled Top View">
+<br>
+<em>10.04.2026 — Zusammenbauen Schritt 9</em>
+</p>
+</details>
+
+**Probleme**
+- Keine gravierenden Probleme — Tile-System passt perfekt zusammen
+
+**Erkenntnisse**
+- Modulare Tile-Architektur ermöglicht schnelle Rekonfiguration ohne kompletten Umbau
+
+**Ausblick**
+- Erste Sensor-Tests mit Breadboard durchführen
+- CAN-Bus Adapter (UCAN) testen für Roboterarm-Integration
+- Roboterarm-Gelenke mechanisch aufbauen
+
+---
+
+## 2026-04-11 – PWM-Kanal-Optimierung für Pin-Ersparnis + Steuer-Test
+
+**Ziel**
+- ESP32 GPIO-Pins sparen durch PWM-Kanal-Konsolidierung
+- Alle Räder auf korrekten Kanälen testen
+
+**Vorgehensweise**
+- PWM-Kanal-Zuordnung optimiert: mehrere Räder Geschwindigkeit auf einem PWM-Kanal steuern
+- Dadurch GPIO-Pins freigegeben für zukünftige Sensoren
+- Steuer-Test durchgeführt: Alle vier Räder debuggt — drehen richtig & sind korrekt angesteuert
+- Alle vier Räder weiterhin einzeln ansteuerbar via Software-Logik
+
+**Erkenntnisse**
+- PWM-Konsolidierung spart GPIO-Pins ohne Funktionalitätsverlust
+- Alle Räder funktionieren korrekt
+- Mehr Flexibilität für zukünftige Erweiterungen (Sensoren)
+
+**Ausblick**
+- Roboterarm-Gelenke mechanisch aufbauen
+---
+
+## 2026-04-14 – J0-Teile gedruckt & erstes Teil designed
+ 
+**Ziel**
+- Erste mechanische Teile für J0-Montage drucken
+- Befestigungs-Design für J0 anpassen
+- S90 Servo-Halterung drucken für Kamera-Neigung
+  
+**Vorgehensweise**
+- J0-Baugruppe-Teile gedruckt
+- Erstes Befestigungs-Teil an fahrender Base designt für J0-Integration
+- S90 Halterung gedruckt — damit Kamera auf und ab schauen kann
+  
+<details>
+<summary><h3><strong><u>📸 Fotos anzeigen</u></strong></h3></summary>
+<br>
+<p align="center">
+<img src="assets/images/2026-04-14_S90_cam_holder.JPG" width="600" alt="Lid Assembled Top View">
+<br>
+<em>14.04.2026 —  S90 Servo-Halterung für Kamera-Neigung</em>
+</p>
+<br>
+<p align="center">
+<img src="assets/images/2026-04-14_ORKA_assembled.JPG" width="600" alt="Lid Assembled Top View">
+<br>
+<em>14.04.2026 —  ORKA zusammengebaut</em>
+</p>
+</details>
+
+**Erkenntnisse**
+- S90 Servo-Integration ermöglicht variable Kamera-Blickwinkel
+- Modular designt für schnelle Anpassungen
+
+**Ausblick**
+- AliExpress-Komponenten warten
+- Erste Montage-Tests
+- S90 mit Kamera testen
+ 
+---
+## 2026-04-16 – J0-Nacharbeiten & erste Motor-Getriebe-Tests
+
+**Ziel**
+- J0-Aussparungen mechanisch korrigieren  
+- Erste Inbetriebnahme einer Motor-Getriebe-Kombination durchführen  
+
+**Vorgehensweise**
+- J0-Aussparungen mit dem Dremel nachgearbeitet  
+- Maxon EC45 mit Harmonic Drive montiert  
+- Erste Ansteuerungsversuche über USB-CAN Adapter durchgeführt  
+- Nach Fehlerbild Motor und Getriebe demontiert, um Ursache zu analysieren  
+
+**Probleme**
+- Exakte Motorkonfiguration/Variante vor der Inbetriebnahme nicht eindeutig verifiziert  
+- OCP (Overcurrent Protection) wurde beim Start ausgelöst und zunächst als zu niedrig gesetztes Stromlimit interpretiert  
+- Infolgedessen wurde das Stromlimit erhöht, obwohl die Ursache im fehlerhaften Setup lag → Motor beschädigt  
+- Beim anschließenden Ausbau wurde das Harmonic-Drive-Getriebe vollständig zerlegt  
+
+**Lösungen**
+- Verifikation von Motortyp, Pinout und Treiberkonfiguration vor jeder Erstinbetriebnahme eingeführt  
+- Fester Pre-Power-Check für Verkabelung und Parameter definiert  
+- OCP-Trigger wird künftig primär als Fehlersignal interpretiert, nicht als Hinweis auf zu geringe Stromfreigabe  
+- Disassembly sensibler Präzisionskomponenten nur noch strukturiert und vorbereitet durchgeführt  
+
+**Erkenntnisse**
+- Anlaufstrom kann kurzfristig hoch sein, ist jedoch nur bei korrekt verifiziertem Setup unkritisch  
+- OCP-Auslösung ist ein zentrales Debug-Signal und sollte nicht vorschnell durch höhere Stromlimits übergangen werden   
+- Präzisionsgetriebe wie Harmonic Drives erfordern kontrollierte Demontage und klare Dokumentation  
+
+**Ausblick**
+- Nema 17 stattdessen verwenden  
+- Motor-Getriebe-Tests mit verifiziertem Setup wiederholen  
+  
+## 2026-04-18 – Motor-Getriebe-Kombos erfolgreich getestet + Robotikclub-Meeting
+
+**Ziel**
+- Motor-Getriebe-Kombos (J0 & J5) testen
+- Community-Kontakte aufbauen
+
+**Vorgehensweise**
+- Neue Motoren + Getriebe-Sets montiert 
+- NEMA 17 + Harmonic Drive (J0) getestet — läuft 
+- NEMA 17 + Harmonic Drive (J5) getestet — läuft 
+- Mit USB-CAN Adapter getestet
+- Robotikclub-Meeting — Austausch mit anderen Projekten, Feedback
+
+**Erkenntnisse**
+- Mit richtigem Debuggen: Motor-Getriebe-Kombos funktionieren gut
+- Community-Input wertvoll für Probleme
+
+**Ausblick**
+- Weitere Gelenke (J2–J6) montieren
+- Roboterarm-CAD-Integration
+
+<details>
+<summary><h3><strong><u>📸 Fotos anzeigen</u></strong></h3></summary>
+<br>
+<p align="center">
+<img src="assets/images/2026-04-18_J0+J5_drive.JPG" width="600" alt="Lid Assembled Top View">
+<br>
+<em>18.04.2026 —  Motoren + Getriebe-Sets montiert</em>
+</p>
+</details>
+
+## 2026-04-20 – Zweite Motor-Getriebe-Paare montieren
+ 
+**Ziel**
+- Weitere zwei Getriebe + Motoren zusammenbauen
+- Befestigungs-Design für Torque-Tests finalisieren
+  
+**Vorgehensweise**
+- Zwei weitere NEMA 17 + Harmonic Drive Paare montieren begonnen
+- Design-Teil für Getriebe-Befestigung J0 entworfen (um an Getriebe zu befestigen für zukünftige Torque-Tests)
+- Problem: M1.5 / M1.7 Schrauben fehlten 
+- Montage pausiert bis Schrauben ankommen
+  
+**Probleme**
+- Schrauben-Vorrat zu klein — Lieferverzögerung
+- Montage nicht abgeschlossen
+  
+**Erkenntnisse**
+- BOM-Planning kritisch — auch kleine Schrauben vorausplanen!
+- M1.5/M1.7 sind Standard in Präzisions-Getrieben
+- Vorsicht: Zu kleine Schrauben können leicht überdrehen
+  
+**Ausblick**
+- Schrauben bestellen (Express-Versand)
+- Montage nach Schrauben-Eintreffen abschließen
+- Torque-Tests vorbereiten mit neuem Befestigungs-Design
+
+---
